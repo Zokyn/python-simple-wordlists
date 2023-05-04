@@ -29,9 +29,9 @@ SYMBOL | MEANING |
 .	| Any character (except newline character)	
 ^	| Starts with	
 $	| Ends with		
-*	| Zero or more occurrences		
-+	| One or more occurrences		
-?	| Zero or one occurrences		
-{}	| Exactly the specified number of occurrences		
-|	| Either or	
-()	| Capture and group
+\*	| Zero or more occurrences		
+\+	| One or more occurrences		
+\?	| Zero or one occurrences		
+\{\}	| Exactly the specified number of occurrences		
+\|	| Either or	
+\(\)	| Capture and group
